@@ -19,10 +19,11 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(64, 64, 64); /* Replace with the dark gray color value you want */
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  background-color: rgb(64, 64, 64); /* Dark gray background color */
 }
 
