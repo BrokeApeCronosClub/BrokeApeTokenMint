@@ -19,10 +19,9 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-    to bottom,
-    black,
-    darkgray,
-    black
-  );
-  background: url('/public/apocalypseApe.gif') center/cover no-repeat;
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
