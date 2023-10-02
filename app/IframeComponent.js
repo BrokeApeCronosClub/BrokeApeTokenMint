@@ -5,7 +5,7 @@ const IframeComponent = () => {
     overflow: 'visible',
     border: '5px solid rgba(0, 0, 0, 0.6)', // 60% transparent black border
     borderRadius: '10px', // Rounded corners with a 15px radius
-    marginRight: '10px', // Add a 20px right margin
+    marginRight: '20px', // Add a 20px right margin
   };
 
   return (
