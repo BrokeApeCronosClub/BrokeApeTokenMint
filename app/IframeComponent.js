@@ -5,8 +5,7 @@ const IframeComponent = () => {
     overflow: 'visible',
     border: '5px solid rgba(0, 0, 0, 0.6)', // 60% transparent black border
     borderRadius: '10px', // Rounded corners with a 15px radius
-    marginRight: '40px', // Add a 20px right margin
-  };
+   
 
   return (
     <iframe
@@ -15,6 +14,7 @@ const IframeComponent = () => {
       height="615px"
       style={iframeStyle} // Apply the style here
       frameBorder="0"
+       marginRight: '40px', // Add a 20px right margin
     ></iframe>
   );
 };
